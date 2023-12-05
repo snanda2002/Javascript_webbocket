@@ -1,5 +1,5 @@
-/* Array is a object which can store similar type of data in a contigious memory location.
- Array index start from 0.
+//Array is a object which can store similar type of data in a contigious memory location.
+//Array index start from 0.
 
 const myArr=["puja",4,5,6,7,8,9]   //Array initialize & declaring
 console.log(myArr[0])             //Accesing the elements
@@ -16,7 +16,6 @@ console.log(myArray)
 myArray.pop( );     //it will only remove the last element.
 console.log(myArray) 
 
-const myArray=[1,2,3,4,5,6,7];
 myArray.unshift(0);     //unshift add a new element in 1st index.
 console.log(myArray);
 myArray.shift();       // remove a element in the 1st index
@@ -48,7 +47,8 @@ console.log(cars);
 const allcars=cars.concat(supercars);      //In concat we can add one .
 console.log(allcars);
 const allNewcars=[...cars,...supercars];   //In spread operator(...)we can add muntiple.
-console.log(allNewcars);*/
+console.log(allNewcars);
+
 
 const anotherArray=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
 const realAnotherArray=anotherArray.flat(Infinity);
